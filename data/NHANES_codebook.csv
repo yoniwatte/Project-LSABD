@@ -1,0 +1,487 @@
+variable,label,file,component
+SEQN,Respondent sequence number,DEMO_L,Demographics
+SDDSRVYR,Data release cycle,DEMO_L,Demographics
+RIDSTATR,Interview/Examination status,DEMO_L,Demographics
+RIAGENDR,Gender,DEMO_L,Demographics
+RIDAGEYR,Age in years at screening,DEMO_L,Demographics
+RIDAGEMN,Age in months at screening - 0 to 24 mos,DEMO_L,Demographics
+RIDRETH1,Race/Hispanic origin,DEMO_L,Demographics
+RIDRETH3,Race/Hispanic origin w/ NH Asian,DEMO_L,Demographics
+RIDEXMON,Six-month time period,DEMO_L,Demographics
+RIDEXAGM,Age in months at exam - 0 to 19 years,DEMO_L,Demographics
+DMQMILIZ,Served active duty in US Armed Forces,DEMO_L,Demographics
+DMDBORN4,Country of birth,DEMO_L,Demographics
+DMDYRUSR,Length of time in US,DEMO_L,Demographics
+DMDEDUC2,Education level - Adults 20+,DEMO_L,Demographics
+DMDMARTZ,Marital status,DEMO_L,Demographics
+RIDEXPRG,Pregnancy status at exam,DEMO_L,Demographics
+DMDHHSIZ,Total number of people in the Household,DEMO_L,Demographics
+DMDHRGND,HH ref person’s gender,DEMO_L,Demographics
+DMDHRAGZ,HH ref person’s age in years,DEMO_L,Demographics
+DMDHREDZ,HH ref person’s education level,DEMO_L,Demographics
+DMDHRMAZ,HH ref person’s marital status,DEMO_L,Demographics
+DMDHSEDZ,HH ref person’s spouse’s education level,DEMO_L,Demographics
+WTINT2YR,Full sample 2-year interview weight,DEMO_L,Demographics
+WTMEC2YR,Full sample 2-year MEC exam weight,DEMO_L,Demographics
+SDMVSTRA,Masked variance pseudo-stratum,DEMO_L,Demographics
+SDMVPSU,Masked variance pseudo-PSU,DEMO_L,Demographics
+INDFMPIR,Ratio of family income to poverty,DEMO_L,Demographics
+BPAOARM,Arm selected - oscillometric,BPXO_L,Examination
+BPAOCSZ,Coded cuff size - oscillometric,BPXO_L,Examination
+BPXOSY1,Systolic - 1st oscillometric reading,BPXO_L,Examination
+BPXODI1,Diastolic - 1st oscillometric reading,BPXO_L,Examination
+BPXOSY2,Systolic - 2nd oscillometric reading,BPXO_L,Examination
+BPXODI2,Diastolic - 2nd oscillometric reading,BPXO_L,Examination
+BPXOSY3,Systolic - 3rd oscillometric reading,BPXO_L,Examination
+BPXODI3,Diastolic - 3rd oscillometric reading,BPXO_L,Examination
+BPXOPLS1,Pulse - 1st oscillometric reading,BPXO_L,Examination
+BPXOPLS2,Pulse - 2nd oscillometric reading,BPXO_L,Examination
+BPXOPLS3,Pulse - 3rd oscillometric reading,BPXO_L,Examination
+BMDSTATS,Body Measures Component Status Code,BMX_L,Examination
+BMXWT,Weight (kg),BMX_L,Examination
+BMIWT,Weight Comment,BMX_L,Examination
+BMXRECUM,Recumbent Length (cm),BMX_L,Examination
+BMIRECUM,Recumbent Length Comment,BMX_L,Examination
+BMXHEAD,Head Circumference (cm),BMX_L,Examination
+BMIHEAD,Head Circumference Comment,BMX_L,Examination
+BMXHT,Standing Height (cm),BMX_L,Examination
+BMIHT,Standing Height Comment,BMX_L,Examination
+BMXBMI,Body Mass Index (kg/m**2),BMX_L,Examination
+BMDBMIC,BMI Category - Children/Youth,BMX_L,Examination
+BMXLEG,Upper Leg Length (cm),BMX_L,Examination
+BMILEG,Upper Leg Length Comment,BMX_L,Examination
+BMXARML,Upper Arm Length (cm),BMX_L,Examination
+BMIARML,Upper Arm Length Comment,BMX_L,Examination
+BMXARMC,Arm Circumference (cm),BMX_L,Examination
+BMIARMC,Arm Circumference Comment,BMX_L,Examination
+BMXWAIST,Waist Circumference (cm),BMX_L,Examination
+BMIWAIST,Waist Circumference Comment,BMX_L,Examination
+BMXHIP,Hip Circumference (cm),BMX_L,Examination
+BMIHIP,Hip Circumference Comment,BMX_L,Examination
+URXUMA,"Albumin, urine (ug/mL)",ALB_CR_L,Laboratory
+URXUMS,"Albumin, urine (mg/L)",ALB_CR_L,Laboratory
+URDUMALC,"Albumin, urine comment code",ALB_CR_L,Laboratory
+URXUCR,"Creatinine, urine (mg/dL)",ALB_CR_L,Laboratory
+URXCRS,"Creatinine, urine (umol/L)",ALB_CR_L,Laboratory
+URDUCRLC,"Creatinine, urine comment code",ALB_CR_L,Laboratory
+URDACT,Albumin creatinine ratio (mg/g),ALB_CR_L,Laboratory
+WTPH2YR,Phlebotomy 2 Year Weight,AGP_L,Laboratory
+LBXAGP,alpha-1-acid glycoprotein (g/L),AGP_L,Laboratory
+LBXBA,Butyrylcholinesterase Activity (U/mL),BCHE_L,Laboratory
+LBDBALC,Butyrylcholinesterase Act comt code,BCHE_L,Laboratory
+LBXCH,Butyrylcholinesterase Con (ng/mL),BCHE_L,Laboratory
+LBDCHLC,Butyrylcholinesterase Conc comt code,BCHE_L,Laboratory
+WTPH2YR_HDL_L,Phlebotomy 2 Year Weight,HDL_L,Laboratory
+LBDHDD,Direct HDL-Cholesterol (mg/dL),HDL_L,Laboratory
+LBDHDDSI,Direct HDL-Cholesterol (mmol/L),HDL_L,Laboratory
+WTSAF2YR,Fasting Subsample 2 Year MEC Weight,TRIGLY_L,Laboratory
+LBXTLG,Triglyceride (mg/dL),TRIGLY_L,Laboratory
+LBDTRSI,Triglyceride (mmol/L),TRIGLY_L,Laboratory
+LBDLDL,"LDL-Cholesterol, Friedewald (mg/dL)",TRIGLY_L,Laboratory
+LBDLDLSI,"LDL-Cholesterol, Friedewald (mmol/L)",TRIGLY_L,Laboratory
+LBDLDLM,"LDL-Cholesterol, Martin-Hopkins (mg/dL)",TRIGLY_L,Laboratory
+LBDLDMSI,"LDL-Cholesterol, Martin-Hopkins (mmol/L)",TRIGLY_L,Laboratory
+LBDLDLN,"LDL-Cholesterol, NIH equation 2 (mg/dL)",TRIGLY_L,Laboratory
+LBDLDNSI,"LDL-Cholesterol, NIH equation 2 (mmol/L)",TRIGLY_L,Laboratory
+WTPH2YR_TCHOL_L,Phlebotomy 2 Year Weight,TCHOL_L,Laboratory
+LBXTC,Total Cholesterol (mg/dL),TCHOL_L,Laboratory
+LBDTCSI,Total Cholesterol (mmol/L),TCHOL_L,Laboratory
+WTPH2YR_CBC_L,Phlebotomy 2 Year Weight,CBC_L,Laboratory
+LBXWBCSI,White blood cell count (1000 cells/uL),CBC_L,Laboratory
+LBXLYPCT,Lymphocyte percent (%),CBC_L,Laboratory
+LBXMOPCT,Monocyte percent (%),CBC_L,Laboratory
+LBXNEPCT,Segmented neutrophils percent (%),CBC_L,Laboratory
+LBXEOPCT,Eosinophils percent (%),CBC_L,Laboratory
+LBXBAPCT,Basophils percent (%),CBC_L,Laboratory
+LBDLYMNO,Lymphocyte number (1000 cells/uL),CBC_L,Laboratory
+LBDMONO,Monocyte number (1000 cells/uL),CBC_L,Laboratory
+LBDNENO,Segmented neutrophils num (1000 cell/uL),CBC_L,Laboratory
+LBDEONO,Eosinophils number (1000 cells/uL),CBC_L,Laboratory
+LBDBANO,Basophils number (1000 cells/uL),CBC_L,Laboratory
+LBXRBCSI,Red blood cell count (million cells/uL),CBC_L,Laboratory
+LBXHGB,Hemoglobin (g/dL),CBC_L,Laboratory
+LBXHCT,Hematocrit (%),CBC_L,Laboratory
+LBXMCVSI,Mean cell volume (fL),CBC_L,Laboratory
+LBXMC,Mean Cell Hgb Conc. (g/dL),CBC_L,Laboratory
+LBXMCHSI,Mean cell hemoglobin (pg),CBC_L,Laboratory
+LBXRDW,Red cell distribution width (%),CBC_L,Laboratory
+LBXPLTSI,Platelet count (1000 cells/uL),CBC_L,Laboratory
+LBXMPSI,Mean platelet volume (fL),CBC_L,Laboratory
+LBXNRBC,Nucleated red blood cells (/100 WBC),CBC_L,Laboratory
+LBXCOT,"Cotinine, Serum (ng/mL)",COT_L,Laboratory
+LBDCOTLC,"Cotinine, Serum Comment Code",COT_L,Laboratory
+LBXHCOT,"Hydroxycotinine, Serum (ng/mL)",COT_L,Laboratory
+LBDHCOLC,"Hydroxycotinine, Serum Comment Code",COT_L,Laboratory
+PHQ020,Coffee or tea with cream or sugar?,FASTQX_L,Laboratory
+PHACOFHR,Coffee/tea fast time (hours),FASTQX_L,Laboratory
+PHACOFMN,Coffee/tea fast time (minutes),FASTQX_L,Laboratory
+PHQ030,"Alcohol, such as beer, wine, or liquor?",FASTQX_L,Laboratory
+PHAALCHR,Alcohol fast time (hours),FASTQX_L,Laboratory
+PHAALCMN,Alcohol fast time (minutes),FASTQX_L,Laboratory
+PHQ040,"Gum, mints, lozenges or cough drops",FASTQX_L,Laboratory
+PHAGUMHR,"Gum, mints cough drops fast time (hours)",FASTQX_L,Laboratory
+PHAGUMMN,"Gum, mints, cough fast time (minutes)",FASTQX_L,Laboratory
+PHQ050,"Antacids, laxatives, or anti-diarrheals?",FASTQX_L,Laboratory
+PHAANTHR,"Antacids, laxatives fast time (hours)",FASTQX_L,Laboratory
+PHAANTMN,"Antacids, laxatives fast time (minutes)",FASTQX_L,Laboratory
+PHQ060,Dietary supplements?,FASTQX_L,Laboratory
+PHASUPHR,Dietary supplements fast time (hours),FASTQX_L,Laboratory
+PHASUPMN,Dietary supplements fast time (minutes),FASTQX_L,Laboratory
+PHAFSTHR,Total length of 'food fast' (hours),FASTQX_L,Laboratory
+PHAFSTMN,Total length of 'food fast' (minutes),FASTQX_L,Laboratory
+PHDSESNZ,Session in which SP was examined,FASTQX_L,Laboratory
+WTPH2YR_FAR_L,Phlebotomy 2 Year Weight,FAR_L,Laboratory
+LBXPAN,alpha-Linolenic acid (C18:3n-3) (%),FAR_L,Laboratory
+LBDPANLC,alpha-Linolenic acid (C18:3n-3) cmt code,FAR_L,Laboratory
+LBXP1A,Arachidic acid (C20:0) (%),FAR_L,Laboratory
+LBDP1ALC,Arachidic acid (C20:0) comment code,FAR_L,Laboratory
+LBXPRA,Arachidonic acid (C20:4n-6) (%),FAR_L,Laboratory
+LBDPRALC,Arachidonic acid (C20:4n-6) comment code,FAR_L,Laboratory
+LBXPDA,Docosanoic acid (C22:0) (%),FAR_L,Laboratory
+LBDPDALC,Docosanoic acid (C22:0) comment code,FAR_L,Laboratory
+LBXPHA,Docosahexaenoic acid (C22:6n-3) (%),FAR_L,Laboratory
+LBDPHALC,Docosahexaenoic acid (C22:6n-3) cmt code,FAR_L,Laboratory
+LBXPD3,Docosapentaenoic acid 3 (C22:5n-3) (%),FAR_L,Laboratory
+LBDPD3LC,Docosapentaenoic acid 3 (C22:5n-3) cmt,FAR_L,Laboratory
+LBXPD6,Docosapentaenoic acid (C22:5n-6) (%),FAR_L,Laboratory
+LBDPD6LC,Docosapentaenoic acid (C22:5n-6) cmt cd,FAR_L,Laboratory
+LBXPTA,Docosatetraenoic acid (C22:4n-6) (%),FAR_L,Laboratory
+LBDPTALC,Docosatetraenoic acid (C22:4n-6) cmt cd,FAR_L,Laboratory
+LBXPED,"11,14-Eicosadienoic acid (C20:2n6) (%)",FAR_L,Laboratory
+LBDPEDLC,"11,14-Eicosadienoic acid(C20:2n6) cmt cd",FAR_L,Laboratory
+LBXP1E,11-Eicosenoic acid (C20:1n-9) (%),FAR_L,Laboratory
+LBDP1ELC,11-Eicosenoic acid (C20:1n-9) cmt code,FAR_L,Laboratory
+LBXPPE,Eicosapentaenoic acid (C20:5n-3) (%),FAR_L,Laboratory
+LBDPPELC,Eicosapentaenoic acid (C20:5n-3) cmt cd,FAR_L,Laboratory
+LBXPLG,gamma-Linolenic acid (C18:3n-6) (%),FAR_L,Laboratory
+LBDPLGLC,gamma-Linolenic acid (C18:3n-6) cmt code,FAR_L,Laboratory
+LBXPGH,homo-gamma-Linolenic acid(C20:3n-6) (%),FAR_L,Laboratory
+LBDPGHLC,homo-gamma-Linolenic acd (C20:3n-6) cmt,FAR_L,Laboratory
+LBXP1G,Tetracosanoic acid (C24:0) (%),FAR_L,Laboratory
+LBDP1GLC,Tetracosanoic acid (C24:0) comment code,FAR_L,Laboratory
+LBXPNL,Linoleic acid (C18:2n-6) (%),FAR_L,Laboratory
+LBDPNLLC,Linoleic acid (C18:2n-6) comment code,FAR_L,Laboratory
+LBXPMR,Myristic acid (C14:0) (%),FAR_L,Laboratory
+LBDPMRLC,Myristic acid (C14:0) comment code,FAR_L,Laboratory
+LBXPNR,15-Tetracosenoic acid (C24:1n9) (%),FAR_L,Laboratory
+LBDPNRLC,15-Tetracosenoic acid(C24:1n9) comt code,FAR_L,Laboratory
+LBXPOL,Oleic acid (C18:1n-9) (%),FAR_L,Laboratory
+LBDPOLLC,Oleic acid (C18:1n-9) comment code,FAR_L,Laboratory
+LBXPPL,Palmitoleic acid (16:1n-7) (%),FAR_L,Laboratory
+LBDPPLLC,Palmitoleic acid (16:1n-7) comment code,FAR_L,Laboratory
+LBXPPM,Palmitic acid (C16:0) (%),FAR_L,Laboratory
+LBDPPMLC,Palmitic acid (C16:0) comment code,FAR_L,Laboratory
+LBXPST,Stearic acid (C18:0) (%),FAR_L,Laboratory
+LBDPSTLC,Stearic acid (C18:0) comment code,FAR_L,Laboratory
+WTPH2YR_FERTIN_L,Phlebotomy 2 Year Weight,FERTIN_L,Laboratory
+LBXFER,Ferritin(ng/mL),FERTIN_L,Laboratory
+LBDFERSI,Ferritin(µg/L),FERTIN_L,Laboratory
+WTPH2YR_FOLATE_L,Phlebotomy 2 Year Weight,FOLATE_L,Laboratory
+LBDRFO,RBC folate (ng/mL),FOLATE_L,Laboratory
+LBDRFOSI,RBC folate (nmol/L),FOLATE_L,Laboratory
+WTPH2YR_FFMR_L,Phlebotomy 2 Year Weight,FFMR_L,Laboratory
+LBDRF7SI,"Total Folate, RBC (nmol/L)",FFMR_L,Laboratory
+LBXRF1SI,"5-Methyl-tetrahydrofolate, RBC (nmol/L)",FFMR_L,Laboratory
+LBDRF1LC,"5-Methyl-tetrahydrofolate, RBC cmt",FFMR_L,Laboratory
+LBXRF2SI,"Folic acid, RBC (nmol/L)",FFMR_L,Laboratory
+LBDRF2LC,"Folic acid, RBC cmt",FFMR_L,Laboratory
+LBXRF3SI,"5-Formyl-tetrahydrofolate, RBC (nmol/L)",FFMR_L,Laboratory
+LBDRF3LC,"5-Formyl-tetrahydrofolate, RBC cmt",FFMR_L,Laboratory
+LBXRF4SI,"Tetrahydrofolate, RBC (nmol/L)",FFMR_L,Laboratory
+LBDRF4LC,"Tetrahydrofolate, RBC cmt",FFMR_L,Laboratory
+LBXRF5SI,"5,10-Methenyl-tetrahydrofolate (nmol/L)",FFMR_L,Laboratory
+LBDRF5LC,"5,10-Methenyl-tetrahydrofolate, RBC cmt",FFMR_L,Laboratory
+LBXRF6SI,"MeFox oxidation product, RBC (nmol/L)",FFMR_L,Laboratory
+LBDRF6LC,"MeFox oxidation product, RBC cmt",FFMR_L,Laboratory
+WTPH2YR_GHB_L,Phlebotomy 2 Year Weight,GHB_L,Laboratory
+LBXGH,Glycohemoglobin (%),GHB_L,Laboratory
+WTPH2YR_HEPA_L,Phlebotomy 2 Year Weight,HEPA_L,Laboratory
+LBXHA,Hepatitis A antibody,HEPA_L,Laboratory
+WTPH2YR_HEPB_S_L,Phlebotomy 2 Year Weight,HEPB_S_L,Laboratory
+LBXHBS,Hepatitis B Surface Antibody,HEPB_S_L,Laboratory
+WTPH2YR_HEPBD_L,Phlebotomy 2 Year Weight,HEPBD_L,Laboratory
+LBXHBC,Hepatitis B core antibody,HEPBD_L,Laboratory
+LBDHBG,Hepatitis B surface antigen,HEPBD_L,Laboratory
+LBDHD,Hepatitis D antibody (anti-HDV),HEPBD_L,Laboratory
+WTPH2YR_HEPC_L,Phlebotomy 2 Year Weight,HEPC_L,Laboratory
+LBXHCR,Hepatitis C RNA,HEPC_L,Laboratory
+LBDHCI,Hepatitis C Antibody (confirmed),HEPC_L,Laboratory
+LBXHCG,Hepatitis C Genotype,HEPC_L,Laboratory
+WTPH2YR_HEPE_L,Phlebotomy 2 Year Weight,HEPE_L,Laboratory
+LBDHEG,Hepatitis E IgG (anti-HEV),HEPE_L,Laboratory
+LBDHEM,Hepatitis E IgM (anti-HEV),HEPE_L,Laboratory
+WTPH2YR_HSCRP_L,Phlebotomy 2 Year Weight,HSCRP_L,Laboratory
+LBXHSCRP,HS C-Reactive Protein (mg/L),HSCRP_L,Laboratory
+LBDHRPLC,HS C-Reactive Protein Comment Code,HSCRP_L,Laboratory
+WTSAF2YR_INS_L,Fasting Subsample 2 Year MEC Weight,INS_L,Laboratory
+LBXIN,Insulin (uU/mL),INS_L,Laboratory
+LBDINSI,Insulin (pmol/L),INS_L,Laboratory
+LBDINLC,Insulin Comment Code,INS_L,Laboratory
+WTPH2YR_PBCD_L,Phlebotomy 2 Year Weight,PBCD_L,Laboratory
+LBXBPB,Blood lead (ug/dL),PBCD_L,Laboratory
+LBDBPBSI,Blood lead (umol/L),PBCD_L,Laboratory
+LBDBPBLC,Blood lead comment code,PBCD_L,Laboratory
+LBXBCD,Blood cadmium (ug/L),PBCD_L,Laboratory
+LBDBCDSI,Blood cadmium (nmol/L),PBCD_L,Laboratory
+LBDBCDLC,Blood cadmium comment code,PBCD_L,Laboratory
+LBXTHG,"Blood mercury, total (ug/L)",PBCD_L,Laboratory
+LBDTHGSI,"Blood mercury, total (nmol/L)",PBCD_L,Laboratory
+LBDTHGLC,"Blood mercury, total comment code",PBCD_L,Laboratory
+LBXBSE,Blood selenium (ug/L),PBCD_L,Laboratory
+LBDBSESI,Blood selenium (umol/L),PBCD_L,Laboratory
+LBDBSELC,Blood selenium comment code,PBCD_L,Laboratory
+LBXBMN,Blood manganese (ug/L),PBCD_L,Laboratory
+LBDBMNSI,Blood manganese (nmol/L),PBCD_L,Laboratory
+LBDBMNLC,Blood manganese comment code,PBCD_L,Laboratory
+WTPH2YR_IHGEM_L,Phlebotomy 2 Year Weight,IHGEM_L,Laboratory
+LBXIHG,"Mercury, inorganic (ug/L)",IHGEM_L,Laboratory
+LBDIHGSI,"Mercury, inorganic (nmol/L)",IHGEM_L,Laboratory
+LBDIHGLC,"Mercury, inorganic comment code",IHGEM_L,Laboratory
+LBXBGE,"Mercury, ethyl (ug/L)",IHGEM_L,Laboratory
+LBDBGESI,"Mercury, ethyl (nmol/L)",IHGEM_L,Laboratory
+LBDBGELC,"Mercury, ethyl comment code",IHGEM_L,Laboratory
+LBXBGM,"Mercury, methyl (ug/L)",IHGEM_L,Laboratory
+LBDBGMSI,"Mercury, methyl (nmol/L)",IHGEM_L,Laboratory
+LBDBGMLC,"Mercury, methyl comment code",IHGEM_L,Laboratory
+WTSPF2YR,PFAS subsample weight,PFAS_L,Laboratory
+LBXPFDE,Perfluorodecanoic acid (ng/mL),PFAS_L,Laboratory
+LBDPFDEL,Perfluorodecanoic acid Comment Code,PFAS_L,Laboratory
+LBXPFHS,Perfluorohexane sulfonic acid (ng/mL),PFAS_L,Laboratory
+LBDPFHSL,Perfluorohexane sulfonic acid Comt Code,PFAS_L,Laboratory
+LBXMPAH,2-(N-methyl-PFOSA)acetic acid (ng/mL),PFAS_L,Laboratory
+LBDMPAHL,2-(N-methyl-PFOSA) acetic acid Comt Code,PFAS_L,Laboratory
+LBXPFNA,Perfluorononanoic acid (ng/mL),PFAS_L,Laboratory
+LBDPFNAL,Perfluorononanoic acid Comment Code,PFAS_L,Laboratory
+LBXPFUA,Perfluoroundecanoic acid (ng/mL),PFAS_L,Laboratory
+LBDPFUAL,Perfluoroundecanoic acid Comment Code,PFAS_L,Laboratory
+LBXNFOA,n-perfluorooctanoic acid (ng/mL),PFAS_L,Laboratory
+LBDNFOAL,n-perfluorooctanoic acid Comment Code,PFAS_L,Laboratory
+LBXBFOA,Br. perfluorooctanoic acid iso (ng/mL),PFAS_L,Laboratory
+LBDBFOAL,Br. perfluorooctanoic acid iso Comt Code,PFAS_L,Laboratory
+LBXNFOS,n-perfluorooctane sulfonic acid (ng/mL),PFAS_L,Laboratory
+LBDNFOSL,n-perfluorooctane sulfonic Comt Code,PFAS_L,Laboratory
+LBXMFOS,Sm-PFOS (ng/mL),PFAS_L,Laboratory
+LBDMFOSL,Sm-PFOS Comment Code,PFAS_L,Laboratory
+WTSAF2YR_GLU_L,Fasting Subsample 2 Year MEC Weight,GLU_L,Laboratory
+LBXGLU,Fasting Glucose (mg/dL),GLU_L,Laboratory
+LBDGLUSI,Fasting Glucose (mmol/L),GLU_L,Laboratory
+WTPH2YR_FOLFMS_L,Phlebotomy 2 Year Weight,FOLFMS_L,Laboratory
+LBDFOTSI,Serum total folate (nmol/L),FOLFMS_L,Laboratory
+LBDFOT,Serum total folate (ng/mL),FOLFMS_L,Laboratory
+LBXSF1SI,5-Methyl-tetrahydrofolate (nmol/L),FOLFMS_L,Laboratory
+LBDSF1LC,5-Methyl-tetrahydrofolate cmt,FOLFMS_L,Laboratory
+LBXSF2SI,Folic acid (nmol/L),FOLFMS_L,Laboratory
+LBDSF2LC,Folic acid cmt,FOLFMS_L,Laboratory
+LBXSF3SI,5-Formyl-tetrahydrofolate (nmol/L),FOLFMS_L,Laboratory
+LBDSF3LC,5-Formyl-tetrahydrofolate cmt,FOLFMS_L,Laboratory
+LBXSF4SI,Tetrahydrofolate (nmol/L),FOLFMS_L,Laboratory
+LBDSF4LC,Tetrahydrofolate cmt,FOLFMS_L,Laboratory
+LBXSF5SI,"5,10-Methenyl-tetrahydrofolate (nmol/L)",FOLFMS_L,Laboratory
+LBDSF5LC,"5,10-Methenyl-tetrahydrofolate cmt",FOLFMS_L,Laboratory
+LBXSF6SI,Mefox oxidation product (nmol/L),FOLFMS_L,Laboratory
+LBDSF6LC,Mefox oxidation product cmt,FOLFMS_L,Laboratory
+WTPH2YR_TST_L,Phlebotomy 2 Year Weight,TST_L,Laboratory
+LBX17H,17a-hydroxyprogesterone (ng/dL),TST_L,Laboratory
+LBD17HSI,17a-hydroxyprogesterone (nmol/L),TST_L,Laboratory
+LBD17HLC,17a-hydroxyprogesterone Comment Code,TST_L,Laboratory
+LBXAND,Androstenedione (ng/dL),TST_L,Laboratory
+LBDANDSI,Androstenedione (nmol/L),TST_L,Laboratory
+LBDANDLC,Androstenedione Comment Code,TST_L,Laboratory
+LBXAMH,Anti-Mullerian hormone (ng/mL),TST_L,Laboratory
+LBDAMHSI,Anti-Mullerian hormone (pmol/L),TST_L,Laboratory
+LBDAMHLC,Anti-Mullerian hormone Comment Code,TST_L,Laboratory
+LBXDHE,DHEAS (µg/dL),TST_L,Laboratory
+LBDDHESI,DHEAS (µmol/L),TST_L,Laboratory
+LBDDHELC,DHEAS Comment Code,TST_L,Laboratory
+LBXEST,Estradiol (pg/mL),TST_L,Laboratory
+LBDESTSI,Estradiol (pmol/L),TST_L,Laboratory
+LBDESTLC,Estradiol Comment Code,TST_L,Laboratory
+LBXESO,Estrone (ng/dL),TST_L,Laboratory
+LBDESOSI,Estrone (pmol/L),TST_L,Laboratory
+LBDESOLC,Estrone Comment Code,TST_L,Laboratory
+LBXES1,Estrone Sulfate (pg/mL),TST_L,Laboratory
+LBDES1SI,Estrone Sulfate (pmol/L),TST_L,Laboratory
+LBDES1LC,Estrone Sulfate Comment Code,TST_L,Laboratory
+LBXFSH,Follicle Stimulating Hormone (mIU/mL),TST_L,Laboratory
+LBDFSHLC,FSH Comment Code,TST_L,Laboratory
+LBXLUH,Luteinizing Hormone (mIU/mL),TST_L,Laboratory
+LBDLUHLC,Luteinizing Hormone Comment Code,TST_L,Laboratory
+LBXPG4,Progesterone (ng/dL),TST_L,Laboratory
+LBDPG4SI,Progesterone (nmol/L),TST_L,Laboratory
+LBDPG4LC,Progesterone Comment Code,TST_L,Laboratory
+LBXSHBG,SHBG (nmol/L),TST_L,Laboratory
+LBDSHGLC,SHBG Comment Code,TST_L,Laboratory
+LBXTST,"Testosterone, total (ng/dL)",TST_L,Laboratory
+LBDTSTSI,"Testosterone, total (nmol/L)",TST_L,Laboratory
+LBDTSTLC,Testosterone comment code,TST_L,Laboratory
+WTPH2YR_BIOPRO_L,Phlebotomy 2 Year Weight,BIOPRO_L,Laboratory
+LBXSATSI,Alanine Aminotransferase (ALT) (IU/L),BIOPRO_L,Laboratory
+LBXSAL,"Albumin, refrigerated serum (g/dL)",BIOPRO_L,Laboratory
+LBDSALSI,"Albumin, refrigerated serum (g/L)",BIOPRO_L,Laboratory
+LBXSAPSI,Alkaline Phosphatase (ALP) (IU/L),BIOPRO_L,Laboratory
+LBXSASSI,Aspartate Aminotransferase (AST) (IU/L),BIOPRO_L,Laboratory
+LBXSC3SI,Bicarbonate (mmol/L),BIOPRO_L,Laboratory
+LBXSBU,Blood Urea Nitrogen (mg/dL),BIOPRO_L,Laboratory
+LBDSBUSI,Blood Urea Nitrogen (mmol/L),BIOPRO_L,Laboratory
+LBXSCLSI,Chloride (mmol/L),BIOPRO_L,Laboratory
+LBXSCK,Creatine Phosphokinase (CPK) (U/L),BIOPRO_L,Laboratory
+LBXSCR,"Creatinine, refrigerated serum (mg/dL)",BIOPRO_L,Laboratory
+LBDSCRSI,"Creatinine, refrigerated serum (umol/L)",BIOPRO_L,Laboratory
+LBXSGB,Globulin (g/dL),BIOPRO_L,Laboratory
+LBDSGBSI,Globulin (g/L),BIOPRO_L,Laboratory
+LBXSGL,"Glucose, refrigerated serum (mg/dL)",BIOPRO_L,Laboratory
+LBDSGLSI,"Glucose, refrigerated serum (mmol/L)",BIOPRO_L,Laboratory
+LBXSGTSI,Gamma Glutamyl Transferase (GGT) (IU/L),BIOPRO_L,Laboratory
+LBDSGTLC,GGT Comment Code,BIOPRO_L,Laboratory
+LBXSIR,"Iron, refrigerated serum (µg/dL)",BIOPRO_L,Laboratory
+LBDSIRSI,"Iron, refrigerated serum (umol/L)",BIOPRO_L,Laboratory
+LBXSLDSI,Lactate Dehydrogenase (LDH) (U/L),BIOPRO_L,Laboratory
+LBXMAGN,Magnesium (mg/dL),BIOPRO_L,Laboratory
+LBXSOSSI,Osmolality (mmol/Kg),BIOPRO_L,Laboratory
+LBXSPH,Phosphorus (mg/dL),BIOPRO_L,Laboratory
+LBDSPHSI,Phosphorus (mmol/L),BIOPRO_L,Laboratory
+LBXSKSI,Potassium (mmol/L),BIOPRO_L,Laboratory
+LBXSNASI,Sodium (mmol/L),BIOPRO_L,Laboratory
+LBXSTB,Total Bilirubin (mg/dL),BIOPRO_L,Laboratory
+LBDSTBSI,Total Bilirubin (umol/L),BIOPRO_L,Laboratory
+LBDSTBLC,Total Bilirubin Comment Code,BIOPRO_L,Laboratory
+LBXSCA,Total Calcium (mg/dL),BIOPRO_L,Laboratory
+LBDSCASI,Total Calcium (mmol/L),BIOPRO_L,Laboratory
+LBXSCH,"Cholesterol, refrigerated serum (mg/dL)",BIOPRO_L,Laboratory
+LBDSCHSI,"Cholesterol, refrigerated serum (mmol/L)",BIOPRO_L,Laboratory
+LBXSTP,Total Protein (g/dL),BIOPRO_L,Laboratory
+LBDSTPSI,Total Protein (g/L),BIOPRO_L,Laboratory
+LBXSTR,"Triglycerides, refrig serum (mg/dL)",BIOPRO_L,Laboratory
+LBDSTRSI,"Triglycerides, refrig serum (mmol/L)",BIOPRO_L,Laboratory
+LBXSUA,Uric acid (mg/dL),BIOPRO_L,Laboratory
+LBDSUASI,Uric acid (umol/L),BIOPRO_L,Laboratory
+WTPH2YR_TFR_L,Phlebotomy 2 Year Weight,TFR_L,Laboratory
+LBXTFR,Transferrin receptor (mg/L),TFR_L,Laboratory
+LBDTFRSI,Transferrin receptor (nmol/L),TFR_L,Laboratory
+URXPREG,Urine Pregnancy Result,UCPREG_L,Laboratory
+WTPH2YR_VID_L,Phlebotomy 2 Year Weight,VID_L,Laboratory
+LBXVIDMS,25OHD2+25OHD3 (nmol/L),VID_L,Laboratory
+LBDVIDLC,25OHD2+25OHD3 comment code,VID_L,Laboratory
+LBXVD2MS,25OHD2 (nmol/L),VID_L,Laboratory
+LBDVD2LC,25OHD2 comment code,VID_L,Laboratory
+LBXVD3MS,25OHD3 (nmol/L),VID_L,Laboratory
+LBDVD3LC,25OHD3 comment code,VID_L,Laboratory
+LBXVE3MS,epi-25OHD3 (nmol/L),VID_L,Laboratory
+LBDVE3LC,epi-25OHD3 comment code,VID_L,Laboratory
+WTSVOC2Y,VOC Subsample Weight,VOCWB_L,Laboratory
+LBX2DF,"Blood 2,5-Dimethylfuran (ng/mL)",VOCWB_L,Laboratory
+LBD2DFLC,"Blood 2,5-Dimethylfuran Comment Code",VOCWB_L,Laboratory
+LBXV06,Blood Hexane (ng/mL),VOCWB_L,Laboratory
+LBDV06LC,Blood Hexane Comment Code,VOCWB_L,Laboratory
+LBXV07N,Blood Heptane (ng/mL),VOCWB_L,Laboratory
+LBDV07LC,Blood Heptane Comment Code,VOCWB_L,Laboratory
+LBXV08N,Blood Octane (ng/mL),VOCWB_L,Laboratory
+LBDV08LC,Blood Octane Comment Code,VOCWB_L,Laboratory
+LBXV1D,"Blood 1,2-Dichlorobenzene (ng/mL)",VOCWB_L,Laboratory
+LBDV1DLC,"Blood 1,2-Dichlorobenzene Comment Code",VOCWB_L,Laboratory
+LBXV2A,"Blood 1,2-Dichloroethane (ng/mL)",VOCWB_L,Laboratory
+LBDV2ALC,"Blood 1,2-Dichloroethane Comment Code",VOCWB_L,Laboratory
+LBXV3B,"Blood 1,3-Dichlorobenzene (ng/mL)",VOCWB_L,Laboratory
+LBDV3BLC,"Blood 1,3-Dichlorobenzene Comment Code",VOCWB_L,Laboratory
+LBXV4C,Blood Tetrachloroethene (ng/mL),VOCWB_L,Laboratory
+LBDV4CLC,Blood Tetrachloroethene Comment Code,VOCWB_L,Laboratory
+LBXVAPN,Blood a-pinene (ng/mL),VOCWB_L,Laboratory
+LBDVAPLC,Blood a-pinene Comment Code,VOCWB_L,Laboratory
+LBXVBF,Blood Bromoform (ng/mL),VOCWB_L,Laboratory
+LBDVBFLC,Blood Bromoform Comment Code,VOCWB_L,Laboratory
+LBXVBM,Blood Bromodichloromethane (ng/mL),VOCWB_L,Laboratory
+LBDVBMLC,Blood Bromodichloromethane Comment Code,VOCWB_L,Laboratory
+LBXVBZ,Blood Benzene (ng/mL),VOCWB_L,Laboratory
+LBDVBZLC,Blood Benzene Comment Code,VOCWB_L,Laboratory
+LBXVBZN,Blood Benzonitrile (ng/mL),VOCWB_L,Laboratory
+LBDVZBLC,Blood Benzonitrile Comment Code,VOCWB_L,Laboratory
+LBXVC6,Blood Cyclohexane (ng/mL),VOCWB_L,Laboratory
+LBDVC6LC,Blood Cyclohexane Comment Code,VOCWB_L,Laboratory
+LBXVCB,Blood Chlorobenzene (ng/mL),VOCWB_L,Laboratory
+LBDVCBLC,Blood Chlorobenzene Comment Code,VOCWB_L,Laboratory
+LBXVCF,Blood Chloroform (ng/mL),VOCWB_L,Laboratory
+LBDVCFLC,Blood Chloroform Comment Code,VOCWB_L,Laboratory
+LBXVCM,Blood Dibromochloromethane (ng/mL),VOCWB_L,Laboratory
+LBDVCMLC,Blood Dibromochloromethane Comment Code,VOCWB_L,Laboratory
+LBXVCT,Blood Carbon Tetrachloride (ng/mL),VOCWB_L,Laboratory
+LBDVCTLC,Blood Carbon Tetrachloride Comment Code,VOCWB_L,Laboratory
+LBXVDB,"Blood 1,4-Dichlorobenzene (ng/mL)",VOCWB_L,Laboratory
+LBDVDBLC,"Blood 1,4-Dichlorobenzene Comment Code",VOCWB_L,Laboratory
+LBXVDEE,Blood Diethyl Ether (ng/mL),VOCWB_L,Laboratory
+LBDVEELC,Blood Diethyl Ether Comment Code,VOCWB_L,Laboratory
+LBXVEA,Blood Ethyl Acetate (ng/mL),VOCWB_L,Laboratory
+LBDVEALC,Blood Ethyl Acetate Comment Code,VOCWB_L,Laboratory
+LBXVEB,Blood Ethylbenzene (ng/mL),VOCWB_L,Laboratory
+LBDVEBLC,Blood Ethylbenzene Comment Code,VOCWB_L,Laboratory
+LBXVEC,Blood Chloroethane (ng/mL),VOCWB_L,Laboratory
+LBDVECLC,Blood Chloroethane Comment Code,VOCWB_L,Laboratory
+LBXVFN,Blood Furan (ng/mL),VOCWB_L,Laboratory
+LBDVFNLC,Blood Furan Comment Code,VOCWB_L,Laboratory
+LBXVIBN,Blood Isobutyronitrile (ng/mL),VOCWB_L,Laboratory
+LBDVIBLC,Blood Isobutyronitrile Comment Code,VOCWB_L,Laboratory
+LBXVIPB,Blood Isopropylbenzene (ng/mL),VOCWB_L,Laboratory
+LBDVIPLC,Blood Isopropylbenzene Comment Code,VOCWB_L,Laboratory
+LBXVMC,Blood Methylene Chloride (ng/mL),VOCWB_L,Laboratory
+LBDVMCLC,Blood Methylene Chloride Comment Code,VOCWB_L,Laboratory
+LBXVMCP,Blood Methylcyclopentane (ng/mL),VOCWB_L,Laboratory
+LBDVMPLC,Blood Methylcyclopentane Comment Code,VOCWB_L,Laboratory
+LBXVME,Blood MTBE (ng/mL),VOCWB_L,Laboratory
+LBDVMELC,Blood MTBE Comment Code,VOCWB_L,Laboratory
+LBXVMIK,Blood Methyl Isobutyl Ketone (ng/mL),VOCWB_L,Laboratory
+LBDVMKLC,Blood Methyl Isobutyl Ketone Comt Code,VOCWB_L,Laboratory
+LBXVOX,Blood o-Xylene (ng/mL),VOCWB_L,Laboratory
+LBDVOXLC,Blood o-Xylene Comment Code,VOCWB_L,Laboratory
+LBXVST,Blood Styrene (ng/mL),VOCWB_L,Laboratory
+LBDVSTLC,Blood Styrene Comment Code,VOCWB_L,Laboratory
+LBXVTC,Blood Trichloroethene (ng/mL),VOCWB_L,Laboratory
+LBDVTCLC,Blood Trichloroethene Comment Code,VOCWB_L,Laboratory
+LBXVTE,"Blood 1,1,1-Trichloroethane (ng/mL)",VOCWB_L,Laboratory
+LBDVTELC,"Blood 1,1,1-Trichloroethane Comment Code",VOCWB_L,Laboratory
+LBXVTHF,Blood Tetrahydrofuran (ng/mL),VOCWB_L,Laboratory
+LBDVHTLC,Blood Tetrahydrofuran Comment Code,VOCWB_L,Laboratory
+LBXVTO,Blood Toluene (ng/mL),VOCWB_L,Laboratory
+LBDVTOLC,Blood Toluene Comment Code,VOCWB_L,Laboratory
+LBXVTP,"Blood 1,2,3-Trichloropropane (ng/mL)",VOCWB_L,Laboratory
+LBDVTPLC,"Blood 1,2,3-Trichloropropane Comt Code",VOCWB_L,Laboratory
+LBXVXY,Blood m-/p-Xylene (ng/mL),VOCWB_L,Laboratory
+LBDVXYLC,Blood m-/p-Xylene Comment Code,VOCWB_L,Laboratory
+ALQ111,Ever had a drink of any kind of alcohol,ALQ_L,Questionnaire
+ALQ121,Past 12 mos how often drink alc bev,ALQ_L,Questionnaire
+ALQ130,Avg # alcoholic drinks/day/past 12 mos,ALQ_L,Questionnaire
+ALQ142,# days have 4/5 drinks/past 12 mos,ALQ_L,Questionnaire
+ALQ270,# times 4/5 drinks in 2hrs/past 12 mos,ALQ_L,Questionnaire
+ALQ280,# times 8+ drinks in 1 day/past 12 mos,ALQ_L,Questionnaire
+ALQ151,Ever have 4/5 or more drinks every day,ALQ_L,Questionnaire
+ALQ170,# times 4/5 drinks on occasion/past mo,ALQ_L,Questionnaire
+DBQ010,Ever breastfed or fed breastmilk,DBQ_L,Questionnaire
+DBD030,Age stopped breastfeeding (days),DBQ_L,Questionnaire
+DBD041,Age first fed formula (days),DBQ_L,Questionnaire
+DBD050,Age stopped receiving formula (days),DBQ_L,Questionnaire
+DBD055,Age started other food/beverage,DBQ_L,Questionnaire
+DBD061,Age first fed milk (days),DBQ_L,Questionnaire
+DBQ073A,Type of milk first fed - whole milk,DBQ_L,Questionnaire
+DBQ073B,Type of milk first fed - 2% milk,DBQ_L,Questionnaire
+DBQ073C,Type of milk first fed - 1% milk,DBQ_L,Questionnaire
+DBQ073D,Type of milk first fed - fat free milk,DBQ_L,Questionnaire
+DBQ073E,Type of milk first fed - soy milk,DBQ_L,Questionnaire
+DBQ073U,Type of milk first fed - other,DBQ_L,Questionnaire
+DBQ301,Community/Government meals delivered,DBQ_L,Questionnaire
+DBQ330,Eat meals at Community/Senior center,DBQ_L,Questionnaire
+DBQ360,Attend kindergarten thru high school,DBQ_L,Questionnaire
+DBQ370,School serves school lunches,DBQ_L,Questionnaire
+DBD381,# of times/week get school lunch,DBQ_L,Questionnaire
+DBQ390,"School lunch free, reduced or full price",DBQ_L,Questionnaire
+DBQ400,School serve complete breakfast each day,DBQ_L,Questionnaire
+DBD411,# of times/week get school breakfast,DBQ_L,Questionnaire
+DBQ421,School breakfast free/reduced/full price,DBQ_L,Questionnaire
+DBQ424,Summer program meal free/reduced price,DBQ_L,Questionnaire
+DBQ930,Main meal planner/preparer,DBQ_L,Questionnaire
+DBQ935,Shared meal planning/preparing duty,DBQ_L,Questionnaire
+DBQ940,Main food shopper,DBQ_L,Questionnaire
+DBQ945,Shared food shopping duty,DBQ_L,Questionnaire
+ECD070A,"Weight at birth, pounds",ECQ_L,Questionnaire
+ECD070B,"Weight at birth, ounces",ECQ_L,Questionnaire
+ECQ080,Weight more/less than 5.5 lbs,ECQ_L,Questionnaire
+ECQ090,Weight more/less than 9.0 lbs,ECQ_L,Questionnaire
+WHQ030E,How do you consider your child's weight,ECQ_L,Questionnaire
+MCQ080E,Your child was overweight,ECQ_L,Questionnaire
